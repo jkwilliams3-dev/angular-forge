@@ -17,8 +17,8 @@ import { AuthService } from '../../../core/services/auth.service';
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
             </svg>
           </div>
-          <h1 class="text-3xl font-bold text-slate-100">AngularForge</h1>
-          <p class="text-slate-400 mt-1 text-sm">Enterprise Admin Portal</p>
+          <h1 class="text-3xl font-bold text-slate-100">Sentinel</h1>
+          <p class="text-slate-400 mt-1 text-sm">Management Platform</p>
         </div>
 
         <!-- Card -->
@@ -115,7 +115,7 @@ import { AuthService } from '../../../core/services/auth.service';
               type="submit"
               [disabled]="loading()"
               class="w-full py-3 px-4 bg-blue-600 hover:bg-blue-500 disabled:bg-blue-800 disabled:cursor-not-allowed text-white font-semibold rounded-lg transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-slate-800 flex items-center justify-center gap-2"
-              aria-label="Sign in to AngularForge"
+              aria-label="Sign in to Sentinel"
             >
               @if (loading()) {
                 <svg class="animate-spin w-4 h-4" fill="none" viewBox="0 0 24 24">

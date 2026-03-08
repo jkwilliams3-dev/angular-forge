@@ -62,6 +62,6 @@ export class HeaderComponent {
   currentUser = this.authService.currentUser;
 
   get pageTitle(): string {
-    return 'AngularForge';
+    return 'Sentinel';
   }
 }
