@@ -36,5 +36,5 @@ import { map } from 'rxjs/operators';
 })
 export class App {
   private authService = inject(AuthService);
-  isAuthenticated = this.authService.isAuthenticated;
+  isAuthenticated = this.authService.isLoggedIn;
 }
